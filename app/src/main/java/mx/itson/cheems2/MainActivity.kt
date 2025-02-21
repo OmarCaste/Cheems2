@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     btnCard.setBackgroundResource(R.drawable.emperoraa)
                 }
             }
-        }else{
+        }else{//cambios
             //Sigue
             val btnCard = findViewById<View>(
                 resources.getIdentifier("carta$card", "id", this.packageName)
