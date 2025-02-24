@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         start()
         Log.d("el valor de la carta","La carta perdedora es ${gameOverCard}".toString())
     }
-
+//mensaje
     fun start(){
         flippedCardsList.clear()
         for(i in 1..12){
